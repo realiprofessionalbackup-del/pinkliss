@@ -43,6 +43,25 @@ export const OfferTriangulationSection: React.FC<OfferTriangulationSectionProps>
           </p>
         </div>
 
+        {/* Super Gatilho Mental: Garantia Blindada de Satisfação Belutti */}
+        <div className="mb-10 sm:mb-12 max-w-4xl mx-auto p-5 sm:p-7 rounded-3xl bg-gradient-to-r from-[#200d1e] via-[#140a1c] to-[#1c0e25] border-2 border-amber-400/80 shadow-[0_0_40px_rgba(245,158,11,0.25)] flex flex-col md:flex-row items-center gap-5 text-center md:text-left relative overflow-hidden">
+          <div className="absolute top-0 right-0 w-64 h-64 bg-amber-500/10 rounded-full blur-3xl pointer-events-none" />
+          <div className="w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-amber-400/20 border-2 border-amber-400 flex items-center justify-center text-amber-300 shrink-0 shadow-[0_0_25px_rgba(245,158,11,0.4)]">
+            <ShieldCheck className="w-10 h-10 sm:w-12 sm:h-12" />
+          </div>
+          <div className="flex-1 relative z-10">
+            <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-amber-400/20 text-amber-300 border border-amber-400/50 text-[11px] font-black uppercase tracking-wider mb-2">
+              ⭐ RISCO ZERO PARA SEU SALÃO
+            </div>
+            <h3 className="text-xl sm:text-2xl md:text-3xl font-black uppercase text-white tracking-tight leading-tight">
+              SE NÃO ALISAR, <span className="text-amber-300 underline decoration-pink-500 underline-offset-4">DEVOLVEMOS O SEU DINHEIRO!</span>
+            </h3>
+            <p className="text-xs sm:text-sm text-zinc-200 mt-1.5 leading-relaxed">
+              Temos tanta certeza da potência da nossa fórmula à base de ácido orgânico que assumimos todo o risco por você: aplique seguindo o passo a passo no seu salão e, <strong>se o cabelo não alisar, devolvemos 100% do seu dinheiro</strong>. Sem burocracia e sem letras miúdas.
+            </p>
+          </div>
+        </div>
+
         {/* Grid dos 3 Cards de Oferta Triangulada */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 lg:gap-6 items-stretch">
           

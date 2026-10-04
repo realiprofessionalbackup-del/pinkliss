@@ -21,6 +21,10 @@ export const FAQSection: React.FC = () => {
       answer: "Sim! A Pink Liss alisa qualquer tipo de cabelo — desde ondulados volumosos até crespos e fios resistentes — e é compatível com qualquer química prévia (luzes, descolorações, colorações e outros alisamentos). Contudo, como padrão profissional indispensável em qualquer salão, nunca deixe de fazer um teste de mechas antes da aplicação completa para verificar a integridade da fibra capilar.",
     },
     {
+      question: "E se eu aplicar e o cabelo não alisar?",
+      answer: "Temos Garantia Blindada de Satisfação: se não alisar, devolvemos 100% do seu dinheiro! Confiamos tanto na potência da nossa fórmula à base de ácido orgânico que assumimos todo o risco por você. Aplique seguindo o passo a passo no seu salão e, se não entregar o liso prometido, você tem seu investimento de volta.",
+    },
+    {
       question: "Qual o tamanho e rendimento da Pink Liss?",
       answer: "Cada frasco oficial contém 1 litro com fórmula concentrada em passo único, proporcionando alto rendimento para múltiplos atendimentos no seu salão.",
     },

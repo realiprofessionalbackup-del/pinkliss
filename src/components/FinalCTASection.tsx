@@ -74,6 +74,14 @@ export const FinalCTASection: React.FC<FinalCTASectionProps> = ({ onScrollToOffe
             <Truck className="w-4 h-4 text-pink-400 shrink-0" />
             <span>R$ 19,90 FIXO PARA O NORDESTE</span>
           </div>
+
+          {/* Super Gatilho Mental: Se Não Alisar Devolvemos Seu Dinheiro */}
+          <div className="mt-3.5 p-2.5 rounded-xl bg-gradient-to-r from-amber-500/20 via-pink-500/15 to-amber-500/20 border border-amber-400/60 flex items-center justify-center gap-2 text-center">
+            <ShieldCheck className="w-4 h-4 sm:w-5 sm:h-5 text-amber-300 shrink-0" />
+            <span className="text-xs sm:text-sm font-black text-amber-200 uppercase tracking-wide">
+              GARANTIA BLINDADA: SE NÃO ALISAR, DEVOLVEMOS SEU DINHEIRO!
+            </span>
+          </div>
         </div>
 
         {/* CTAs Finais */}

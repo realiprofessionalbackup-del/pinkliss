@@ -170,6 +170,14 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onScrollToOffers }) =>
                 </button>
               </div>
 
+              {/* Super Gatilho Mental: Garantia Blindada */}
+              <div className="mt-3.5 p-3 rounded-xl bg-gradient-to-r from-amber-500/20 via-pink-500/15 to-amber-500/20 border border-amber-400/60 flex items-center justify-center gap-2.5 text-center shadow-[0_0_20px_rgba(245,158,11,0.2)]">
+                <ShieldCheck className="w-5 h-5 text-amber-300 shrink-0" />
+                <span className="text-xs sm:text-sm font-black text-amber-200 uppercase tracking-wide">
+                  GARANTIA BLINDADA: SE NÃO ALISAR, DEVOLVEMOS SEU DINHEIRO!
+                </span>
+              </div>
+
               {/* Microelementos de Confiança */}
               <div className="grid grid-cols-2 gap-2.5 mt-6 pt-5 border-t border-zinc-800/80">
                 <div className="flex items-center gap-2 text-xs sm:text-sm font-semibold text-zinc-300">
