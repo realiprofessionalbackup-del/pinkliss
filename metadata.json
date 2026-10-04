@@ -1,0 +1,8 @@
+{
+  "name": "Belutti Professional - Pink Liss Progressiva Orgânica",
+  "description": "Página Oficial da Pink Liss - Progressiva Orgânica Passo Único 1L. Liso natural, brilho espelhado e toque aveludado para profissionais de salão.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
